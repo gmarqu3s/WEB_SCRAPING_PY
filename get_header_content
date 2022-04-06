@@ -1,8 +1,10 @@
 import requests
 
 #realizando uma chamada via get
-response = requests.get('https://www.tecmundo.com.br/')
+response = requests.get('https://www.hbomax.com.br/')
 
 print('Status code:', response.status_code)
 print('Header')
 print(response.headers)
+print('\ncontent')
+print(response.content)
