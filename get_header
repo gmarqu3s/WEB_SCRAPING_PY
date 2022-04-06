@@ -1,0 +1,8 @@
+import requests
+
+#realizando uma chamada via get
+response = requests.get('https://www.tecmundo.com.br/')
+
+print('Status code:', response.status_code)
+print('Header')
+print(response.headers)
